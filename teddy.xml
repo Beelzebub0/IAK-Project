@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team A"
+            android:textAllCaps="true"
+            android:textSize="40sp"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/tv_nilai"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="50sp"
+            android:textColor="@color/colorAccent" />
+        <Button
+            android:id="@+id/btn_pls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:text="tambah"
+            android:textAllCaps="true"/>
+        <Button
+            android:id="@+id/btn_minus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:text="kurang"
+            android:textAllCaps="true"/>
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="reset"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team B"
+        android:textAllCaps="true"
+        android:textSize="40sp"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/tv_nilai2"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50sp"
+        android:textColor="@color/colorAccent" />
+    <Button
+        android:id="@+id/btn_pls2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:text="tambah"
+        android:textAllCaps="true"/>
+    <Button
+        android:id="@+id/btn_minus2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:text="kurang"
+        android:textAllCaps="true"/>
+    <Button
+        android:id="@+id/btn_reset2"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:textColor="@color/colorAccent"
+        android:textAllCaps="true" />
+</LinearLayout>
+
+</LinearLayout>
